@@ -1,0 +1,26 @@
+# Core Dependencies
+streamlit==1.28.1
+
+# Audio Processing
+sounddevice==0.4.6
+scipy==1.11.3
+numpy==1.24.3
+
+# PyTorch (CPU version - fixes DLL errors)
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.1.0+cpu
+torchvision==0.16.0+cpu
+torchaudio==2.1.0+cpu
+
+# Whisper
+openai-whisper==20231117
+
+# LLM Integration
+ollama==0.1.6
+
+# Language Detection & Translation (NO googletrans - causes httpcore errors!)
+langdetect==1.0.9
+deep-translator==1.11.4
+
+# Text-to-speech
+gtts==2.4.0
